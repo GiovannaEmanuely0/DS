@@ -4,9 +4,9 @@ public class Calculadora {
 	//Istanciar o objeto tipo Scanner
 	Scanner reader = new Scanner(System.in);
 	
-	double result;
-	double num1, num2, num3 = 1;
-	String operador1, operador2;
+	public double result;
+	public double num1, num2, num3 = 1;
+	public String operador1, operador2;
 	
 	public void operacao() {
 		System.out.println("Insira os valores para calcular");
@@ -31,13 +31,13 @@ public class Calculadora {
 		}while(!operador2.equals("="));
 		System.out.println("Resultado = "+result);
 		
-	}//fim do método operacao
+	}//fim do mÃ©todo operacao
 	
-	//método adição
+	//mÃ©todo adiÃ§Ã£o
 	public void adicao1() {
 		result = num1;
 		result = result + num2;
-	}//fim do método
+	}//fim do mÃ©todo
 	public void subtracao1() {
 		result = num1;
 		result = result - num2;
