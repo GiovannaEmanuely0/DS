@@ -33,7 +33,7 @@ Scanner gica = new Scanner(System.in);
 	
 	public void listarDados() {
 		System.out.println("Nome: "+getNome());
-		System.out.println("Sal·rio: "+getSalario());
+		System.out.println("Sal√°rio: R$"+getSalario());
 		System.out.println("Email: "+getEmail());
 		System.out.println("CPF: "+getCpf());
 	}
