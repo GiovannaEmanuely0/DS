@@ -1,17 +1,30 @@
 
+import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
 		
-		Gerente ge = new Gerente();
+		Scanner Bia = new Scanner (System.in);
 		
-		ge.lerDados();
-		ge.listarDados();
+		System.out.println("Digite 1 para Gerente e 2 para Assistente: ");
 		
-		Assistente assi = new Assistente();
+		int num;
+		num = Bia.nextInt();
 		
-		assi.lerDados();
-		assi.listarDados();
+		if (num==1) {
+			Gerente ge = new Gerente();
+			
+			ge.lerDados();
+			System.out.println(" ");
+			ge.listarDados();
+		
+		} else {
+			Assistente assi = new Assistente();
+			
+			assi.lerDados();
+			System.out.println(" ");
+			assi.listarDados();
+		}
 	}
 
 }
