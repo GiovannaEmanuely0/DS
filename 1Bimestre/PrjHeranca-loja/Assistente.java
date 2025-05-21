@@ -4,12 +4,12 @@ Funcionario funcionario = new Funcionario();
 	
 	public void lerDados() {
 		System.out.println("Digite o seu nome: ");
-		funcionario.setNome(gica.next());
+		funcionario.setNome(gica.nextLine());
 		System.out.println("Digite o seu e-mail: ");
 		funcionario.setEmail(gica.next());
 		System.out.println("Digite o seu cpf: ");
 		funcionario.setCpf(gica.next());
-		System.out.println("Digite o seu sal·rio: ");
+		System.out.println("Digite o seu sal√°rio: ");
 		funcionario.setSalario(gica.nextDouble());
 	}
 	
