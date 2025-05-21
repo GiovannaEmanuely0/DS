@@ -20,7 +20,7 @@ Funcionario funcionario = new Funcionario();
 	//para atribuir os valores 
 	public void lerDados() {
 		System.out.println("Digite o seu nome: ");
-		funcionario.setNome(gica.next());
+		funcionario.setNome(gica.nextLine());
 		System.out.println("Digite o seu e-mail: ");
 		funcionario.setEmail(gica.next());
 		System.out.println("Digite o seu cpf: ");
